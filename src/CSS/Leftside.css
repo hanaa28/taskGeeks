@@ -1,0 +1,15 @@
+.icon-user {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    gap: 40px;
+    flex-direction: column; 
+  }
+

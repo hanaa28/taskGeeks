@@ -114,4 +114,136 @@ export const dataList = [
         "text4":"Low Risk"
 
      },
+    { 
+       "id":12,
+        "tex1":"AMZN",
+       
+        "tex2":200, 
+            
+        "text3":"-0.25 %",
+      
+        "text4":"Low Risk"
+
+     },
+    { 
+       "id":13,
+        "tex1":"AMZN",
+       
+        "tex2":200, 
+            
+        "text3":"-0.25 %",
+      
+        "text4":"Low Risk"
+
+     },
+    { 
+       "id":14,
+        "tex1":"AMZN",
+       
+        "tex2":200, 
+            
+        "text3":"-0.25 %",
+      
+        "text4":"Low Risk"
+
+     },
+    { 
+       "id":15,
+        "tex1":"AMZN",
+       
+        "tex2":200, 
+            
+        "text3":"-0.25 %",
+      
+        "text4":"Low Risk"
+
+     },
+    { 
+       "id":16,
+        "tex1":"AMZN",
+       
+        "tex2":200, 
+            
+        "text3":"-0.25 %",
+      
+        "text4":"Low Risk"
+
+     },
+    { 
+       "id":17,
+        "tex1":"AMZN",
+       
+        "tex2":200, 
+            
+        "text3":"-0.25 %",
+      
+        "text4":"Low Risk"
+
+     },
+    { 
+       "id":18,
+        "tex1":"AMZN",
+       
+        "tex2":200, 
+            
+        "text3":"-0.25 %",
+      
+        "text4":"Low Risk"
+
+     },
+    { 
+       "id":19,
+        "tex1":"AMZN",
+       
+        "tex2":200, 
+            
+        "text3":"-0.25 %",
+      
+        "text4":"Low Risk"
+
+     },
+    { 
+       "id":20,
+        "tex1":"AMZN",
+       
+        "tex2":200, 
+            
+        "text3":"-0.25 %",
+      
+        "text4":"Low Risk"
+
+     },
+    { 
+       "id":21,
+        "tex1":"AMZN",
+       
+        "tex2":200, 
+            
+        "text3":"-0.25 %",
+      
+        "text4":"Low Risk"
+
+     },
+    { 
+       "id":22,
+        "tex1":"AMZN",
+       
+        "tex2":200, 
+            
+        "text3":"-0.25 %",
+      
+        "text4":"Low Risk"
+
+     },
+    { 
+       "id":23,
+        "tex1":"AMZN",
+       
+        "tex2":200, 
+            
+        "text3":"-0.25 %",
+      
+        "text4":"Low Risk"
+
+     },
 ]

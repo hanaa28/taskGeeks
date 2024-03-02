@@ -1,0 +1,137 @@
+.all-filter{
+    background-color: black;
+    height: 100vh;
+   
+}
+.content{
+    background-color: #4b4a4a;
+    border-radius: 10px;
+    z-index: -1;
+}
+.Industry {
+    margin-top: 5px;
+  }
+  
+  .Industry h3 {
+    color: white;
+    font-weight:"bold";
+    font-family: 'Poppins';
+  }
+  
+  .Industry-section {
+    display: flex;
+  }
+  
+  .section {
+    flex: 1;
+    padding-left: 10px; 
+    margin-left: 10px; 
+   
+  }
+    .ss{
+        border-left: 1px solid white; 
+        
+    }
+  
+  
+  .Industry-box img { 
+    margin-right: 10px; 
+    margin-left: 4px;
+  }
+  span{
+    color: white;
+  }
+
+
+  .form-check-input[type="radio"] {
+    display: none; 
+  }
+
+  .custom-radio {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    border: 2px solid gray; 
+    position: relative;
+    cursor: pointer;
+  }
+  .input[type="checkbox"] {
+    display: none;
+  }
+  
+  .label {
+    position: relative;
+    padding-left: 25px; 
+    cursor: pointer;
+  }
+  
+  .label:before {
+    content: "";
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    border:6px solid black; 
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .input[type="checkbox"]:checked + .label:before {
+    background-color: #53ACFF; 
+  }
+  
+
+
+  .scroll {
+    display: flex;
+ 
+  }
+  
+  .scrolling{
+    height: 70px;
+    position: relative;
+    flex: 1;   
+  }
+  .scrolls{
+    flex: 1;
+    padding-left: 10px; 
+    margin-left: 10px; 
+   
+  }
+  .scroll-section {
+   overflow-y: auto;
+    height: 100%; 
+    z-index: 1;
+   
+  }
+  .scrolling::before {
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #53acffb8;
+    border-radius: 15px;
+  }
+  
+  .scroll-section div {
+    display: flex;
+    font-size: 20px;
+    margin-left: 10px;
+   
+  }
+
+  .but {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    border: none;
+    border-radius: 10px;
+    background-color: #53ACFF;
+    color: white;
+    padding: 4px 35px
+}
+
+  

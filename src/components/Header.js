@@ -10,27 +10,29 @@ const Header = () => {
 
     return (
         <div className="header row">
-           
-            <div className="title-search ">
-                <div className="col-3 text-center">
-                <h1 >ALERTS</h1>
-                </div>
-                <div className="search-container col-8">
-                    <input
-                        type="text"
-                        placeholder="Search"
-                        className="search"
-                    />
-                    <button className="search-icon" >
-                        <img src={search} alt="Search" />
-                    </button>
-                </div>
-                <div className="notifation col-1" >
-                <img src={notifation} alt="Icon 1" />
-            </div>
-            </div>
-
+        <div className="title-search col-12 col-md-3 text-center">
+          <h1>ALERTS</h1>
         </div>
+        
+        <div className="search-container col-md-8 col-sm-10">
+          <input
+            type="text"
+            placeholder="Search"
+            className="searcha"
+          />
+          <button className="search-icona">
+            <img src={search} alt="Search" />
+          </button>
+          <div>
+          <div className="notifation col-1">
+          <img src={notifation} alt="Icon 1" />
+        </div>
+          </div>
+          </div>
+        
+      
+      </div>
+      
     )
 }
 export default Header;

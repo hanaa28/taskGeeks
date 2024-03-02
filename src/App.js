@@ -7,23 +7,30 @@ import Filter from './components/Filter';
 function App() {
   return (
     <div className='all-content'>
+    
+      <div className='leftside'>
       <Leftside />
-<div className='row'>
-      <div className='col-md-8 col-sm-12 all'>
-        
-          <div className='header ms-5'>
-            <Header />
-          </div>
-          <div className='table-container ms-5'>
-            <Tabledata />
-          </div>
-       
+     </div>
+     <div className='rightside'>
+  
+    <div className='col-md-8 col-sm-12'>
+      <div className='all'>
+        <div className='header ms-5'>
+          <Header />
+        </div>
+        <div className='table-container ms-5'>
+          <Tabledata />
+        </div>
       </div>
-      <div className='col-md-3 col-sm-12'>
+    </div>
+    <div className='col-md-4 d-none d-sm-block'>
       <Filter />
+
+  </div>
+</div>
       </div>
-    </div>
-    </div>
+
+  
    
   );
 

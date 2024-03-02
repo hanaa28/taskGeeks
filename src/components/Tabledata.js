@@ -20,19 +20,19 @@ const Tabledata = () => {
                 <div className="table-row" key={id}>
                     <div className="box">
                     
-                    <img src={image1} alt="Icon 1" className='img'/>
+                    <img src={image1} alt="Icon 1" className='imgs'/>
                         <span>{data.tex1}</span>
                     </div>
                     <div className="box">
-                    <img src={image2} alt="Icon 1" className='img'/>
+                    <img src={image2} alt="Icon 1" className='imgs'/>
                         <span>{data.tex2}</span>
                     </div>
                     <div className="box">
-                    <img src={image3} alt="Icon 1" className='img'/>
+                    <img src={image3} alt="Icon 1" className='imgs'/>
                         <span style={{ color: data.text4 === "Low Risk" ? "#D94111" : "#118F4B" }}>{data.text3}</span>
                     </div>
                     <div className="box">
-                    <img src={image4} alt="Icon 1" className='img'/>
+                    <img src={image4} alt="Icon 1" className='imgs'/>
                         <span>{data.text4}</span>
                     </div>
                 </div>

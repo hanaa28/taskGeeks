@@ -81,7 +81,7 @@ export const dataList = [
         "tex1":"AMZN",
         "tex2":200, 
         "text3":"-0.25 %",
-        "text4":"HI Risk"
+        "text4":"High Risk"
 
      },
     { 

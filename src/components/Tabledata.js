@@ -13,7 +13,7 @@ const Tabledata = () => {
 
     return (
         
-        <div className="table">
+        <div className="">
             
             {datas.map((data, id) => (
                 
